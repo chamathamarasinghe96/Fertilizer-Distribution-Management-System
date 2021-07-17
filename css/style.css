@@ -1,0 +1,75 @@
+@charset "UFT-8"; 
+
+* { margin : 0; padding: 0; }
+
+.clearfix{overflow: auto} 
+
+.head {
+	/*width: 1000px;*/
+	background: #37D61B;
+	margin : 0 auto;
+}
+
+div.wrapper{
+	/*width: 1000px;*/
+	margin : 0 auto;
+}
+div.head h1{
+	font-family: 'Roboto', sans-serif;
+	padding: 10px;
+	margin-left: 10px;
+}
+div.contain{
+	background: #CCF6C5;
+}
+div.column{
+	margin-right: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+img.sidepic{
+	width: 700px;
+	float: left;
+	margin-bottom: 120px;
+}
+img.contactpic{
+	width: 100px;
+	margin-left: 240px;
+	margin-top: 10px;
+}
+
+form.signup input,button{
+	margin-left: 50px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	transition: 0.5s; /*delays loading and looks like animation effect*/
+}
+
+form.signup a{
+	margin-left: 220px;
+	margin-top: 20px;
+}
+
+form.signup button{
+	margin-left: 240px;
+}
+
+form.signup input{
+	margin-left: 190px;
+}
+
+form.signup label{
+	margin-left: 185px;
+}
+
+div.copyrights{
+	background: #37D61B;
+	text-align: center;
+}
+
+form.signup button:hover{
+	color: red;
+}
+
